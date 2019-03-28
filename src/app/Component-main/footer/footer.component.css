@@ -1,0 +1,13 @@
+.links{
+    font-family: 'Slabo 12px', serif;
+    color:#1c8ece;
+    cursor: pointer;
+    
+}
+.borderLink{
+    border-right:1px solid silver;
+}   
+.KPMGlink{
+    text-decoration:underline;
+    font-size: 18px;
+}

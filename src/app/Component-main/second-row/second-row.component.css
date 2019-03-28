@@ -1,0 +1,24 @@
+*{
+    font-family: 'Slabo 12px', serif;
+}
+#circleKPMG{
+    
+    width: 200px;
+    padding: 4%;
+    height:200px;
+    border:1px solid silver;
+    font-size: 1.3em;
+    border-radius: 50%;
+}
+.links{
+    font-family: 'Slabo 12px', serif;
+    color:#1b5eaa;
+}
+.underLinks{
+    font-size:12px;
+}
+.blocks{
+    display: table;
+    height:200px;
+}
+

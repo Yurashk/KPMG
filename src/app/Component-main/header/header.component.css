@@ -1,0 +1,11 @@
+
+.navbar-nav {
+    font-size: 1em;
+}
+.headLink{
+    color: aliceblue;
+}
+.headLink:hover{
+    color: rgb(72, 169, 214);
+    
+}

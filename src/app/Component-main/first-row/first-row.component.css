@@ -1,0 +1,150 @@
+* {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.imgBox {
+  margin-top: 5%;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  background-color: transparent;
+  height: auto;
+}
+
+.timeline {
+ 
+  height: auto;
+  display: flex;
+
+}
+
+.timelineContainer {
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid white;
+ 
+  float: left;
+  margin-left: 25%;
+  margin-top: 13%;
+  transition: 0.3s ease;
+  
+}
+
+#second{
+  margin-left: 7%;
+}
+#containerr {
+  margin-top: auto;
+  width: 20%;
+  min-width: 200px;
+  height: auto;
+  border: 2px solid #155095;
+  background-color: #1b5eaa;
+  border-radius: 5%;
+  margin-left: 15%;
+  transition: 0.3s ease;
+  margin-top: 1%;
+  padding: 0;
+  z-index: 1;
+  position: relative
+}
+@media screen and (max-width: 600px) {
+  #first,#second,#lastOne,.previous,.pCls {
+    /* visibility: hidden; */
+    display: none;
+  }
+  
+  
+}
+.lastOne {
+  margin-left: 15%;
+}
+
+li:first-child {
+  margin-left: 5%;
+}
+
+.timelineText {
+ 
+  position: relative;
+}
+
+li:last-child:after {
+  content: "";
+  border-bottom: 1px solid white;
+  width: 0px;
+  position: absolute;
+
+
+}
+
+#first {
+  width: 0;
+  height: 0;
+  margin-left: -30%;
+}
+
+#first:after {
+  content: "";
+  border-bottom: 1px solid white;
+
+  width: 130%;
+  position: absolute;
+  margin: 4px 0 0 5px;
+  z-index: 0;
+}
+
+li label {
+  text-align: center;
+}
+
+.UnderLine {
+  width: auto;
+  margin-left: -30px;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 0.7em;
+  color: white;
+  
+
+}
+
+.imgInBox {
+  border: 2px solid #155095;
+  background-color: #1b5eaa;
+  border-radius: 5%;
+  /* box-shadow: 0 0 10px ; */
+
+
+}
+
+#Scroller {
+  border: 1px solid white;
+  height: 50px;
+  border-radius: 18%;
+  padding: 1%;
+  width: 25px;
+  margin-bottom: 25%;
+}
+
+#Scroller hr {
+  margin-top: 30%;
+  margin-bottom: 5%;
+  width: 30%;
+  background-color: white;
+}
+
+.pCls {
+  font-size: 12px;
+}

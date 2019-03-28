@@ -1,0 +1,12 @@
+.links{
+    font-family: 'Slabo 12px', serif;
+    color:#1c8ece;
+    cursor: pointer;
+}
+.KPMGlink{
+    text-decoration:underline;
+    font-size: 18px;
+}
+.underLinks{
+    font-size:12px;
+}
